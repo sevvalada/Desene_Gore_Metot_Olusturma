@@ -1,21 +1,35 @@
+# Öğrenci Bilgi Sistemi
 
-# 📌 Desene Göre Recursive Metot (Java)
-
-Bu proje, kullanıcıdan alınan `N` değeri ile aşağıdaki kurala göre çalışan bir **recursive metot** içerir.
-
-## 🧠 Kural
-
-- Girilen sayıdan 5 çıkarın
-- Sayı **0 veya negatif** olana kadar devam edin
-- 0 veya altına gelince bu kez **5 ekleyerek** başlangıç değerine geri dönün
-- Her adımda sayıyı ekrana yazdırın
-- **Döngü kullanmayın, sadece recursion**
+Bu proje, **Java ile yazılmış bir öğrenci bilgi sistemi**dir.  
+Öğrencilerin derslerini, vize ve final notlarını takip edebilir, ortalamalarını hesaplayabilir ve geçip kalma durumunu belirleyebilirsiniz.  
 
 ---
 
-## 📝 Örnek Çıktı
-**Girdi**
-16
-**Çıktı**
-16 11 6 1 -4 1 6 11 16
+## ⚙️ Özellikler
+
+- **Öğretmen sınıfı (Teacher)**:
+  - Öğretmen adı, telefon numarası ve branş bilgisi tutar.
+  - Derslere atanabilir.
+  
+- **Ders sınıfı (Course)**:
+  - Ders adı, kodu, prefix bilgisi.
+  - Vize ve final notları.
+  - Vize etkisi (yüzdesi) ile ortalama hesaplama.
+  - Öğretmen atanabilir ve öğretmen bilgisi ekrana yazdırılabilir.
+  
+- **Öğrenci sınıfı (Student)**:
+  - Öğrenci adı, numarası, sınıf bilgisi.
+  - 3 adet ders ve bunlara ait notlar.
+  - Ders ortalamalarını ve genel ortalamayı hesaplar.
+  - Geçti/Kaldı durumunu belirler.
+
+---
+
+## 📝 Kullanım
+
+1. Teacher, Course ve Student nesneleri oluşturulur.
+2. Derslere öğretmen atanır.
+3. Öğrenciye vize ve final notları eklenir.
+4. Ders ortalamaları ve genel ortalama hesaplanır.
+5. Öğrencinin geçip kaldığı bilgisi ekrana yazdırılır.
 
