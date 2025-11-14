@@ -1,6 +1,4 @@
-<<<<<<< HEAD
-# -renci_Not_Sistemi_Java
-=======
+
 # 📌 Desene Göre Recursive Metot (Java)
 
 Bu proje, kullanıcıdan alınan `N` değeri ile aşağıdaki kurala göre çalışan bir **recursive metot** içerir.
@@ -21,6 +19,3 @@ Bu proje, kullanıcıdan alınan `N` değeri ile aşağıdaki kurala göre çal�
 **Çıktı**
 16 11 6 1 -4 1 6 11 16
 
-
->>>>>>> e24b2b11d0ece789ac8938580add8353eabf2bde
-# -renci_Not_Sistemi_Java
