@@ -23,3 +23,4 @@ Bu proje, kullanıcıdan alınan `N` değeri ile aşağıdaki kurala göre çal�
 
 
 >>>>>>> e24b2b11d0ece789ac8938580add8353eabf2bde
+# -renci_Not_Sistemi_Java
